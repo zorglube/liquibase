@@ -3,8 +3,8 @@
   "Trivy": {
     "Version": "0.69.3"
   },
-  "ReportID": "019f46d6-2c10-7a65-aaa2-110f7b120d42",
-  "CreatedAt": "2026-07-09T12:24:28.944682829Z",
+  "ReportID": "019f4bf6-173f-7663-8414-af4a1610f177",
+  "CreatedAt": "2026-07-10T12:17:26.847419563Z",
   "ArtifactID": "sha256:ab06f77e82c54ce2f2a004f579c5c6b6c1689d650816b8124569f23747ebbd32",
   "ArtifactName": "liquibase/liquibase:5.0.3",
   "ArtifactType": "container_image",
@@ -10726,7 +10726,7 @@
             "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383",
             "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076",
             "https://errata.almalinux.org/9/ALSA-2026-25239.html",
-            "https://errata.rockylinux.org/RLSA-2026:25237",
+            "https://errata.rockylinux.org/RLSA-2026:25239",
             "https://github.com/openssl/openssl/commit/3aad5eb7af4de4ee0633c30a8541a54d9bbde63c",
             "https://github.com/openssl/openssl/commit/7d4a980c62258c5910cc883936e0c8dbab4d75a8",
             "https://github.com/openssl/openssl/commit/9dfd688ad2290fc5075cacbc9bf0c9a93eefed54",
@@ -10847,7 +10847,7 @@
             "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383",
             "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076",
             "https://errata.almalinux.org/9/ALSA-2026-25239.html",
-            "https://errata.rockylinux.org/RLSA-2026:25237",
+            "https://errata.rockylinux.org/RLSA-2026:25239",
             "https://github.com/openssl/openssl/commit/3aad5eb7af4de4ee0633c30a8541a54d9bbde63c",
             "https://github.com/openssl/openssl/commit/7d4a980c62258c5910cc883936e0c8dbab4d75a8",
             "https://github.com/openssl/openssl/commit/9dfd688ad2290fc5075cacbc9bf0c9a93eefed54",
@@ -11113,7 +11113,8 @@
             "amazon": 2,
             "bitnami": 2,
             "oracle-oval": 3,
-            "redhat": 3
+            "redhat": 3,
+            "rocky": 3
           },
           "CVSS": {
             "bitnami": {
@@ -11126,17 +11127,31 @@
             }
           },
           "References": [
+            "https://access.redhat.com/errata/RHSA-2026:29981",
             "https://access.redhat.com/errata/RHSA-2026:33574",
             "https://access.redhat.com/errata/RHSA-2026:34357",
             "https://access.redhat.com/errata/RHSA-2026:34359",
             "https://access.redhat.com/errata/RHSA-2026:35832",
             "https://access.redhat.com/errata/RHSA-2026:36317",
             "https://access.redhat.com/errata/RHSA-2026:36648",
+            "https://access.redhat.com/errata/RHSA-2026:36797",
             "https://access.redhat.com/security/cve/CVE-2026-27145",
             "https://bugzilla.redhat.com/2445356",
             "https://bugzilla.redhat.com/2484207",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2466505",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2466507",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2467822",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2480756",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2480761",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2484207",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25681",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27145",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33811",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39821",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42151",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42154",
             "https://errata.almalinux.org/9/ALSA-2026-36317.html",
+            "https://errata.rockylinux.org/RLSA-2026:34359",
             "https://go.dev/cl/783621",
             "https://go.dev/issue/79694",
             "https://groups.google.com/g/golang-announce/c/tKs3rmcBcKw",
@@ -11148,7 +11163,7 @@
             "https://www.cve.org/CVERecord?id=CVE-2026-27145"
           ],
           "PublishedDate": "2026-06-02T23:16:35.57Z",
-          "LastModifiedDate": "2026-07-08T13:16:33.35Z"
+          "LastModifiedDate": "2026-07-09T13:16:54.55Z"
         },
         {
           "VulnerabilityID": "CVE-2026-42504",
