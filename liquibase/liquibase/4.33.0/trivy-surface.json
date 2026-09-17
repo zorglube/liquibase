@@ -3,8 +3,8 @@
   "Trivy": {
     "Version": "0.69.3"
   },
-  "ReportID": "01a0aa9b-d1b4-7544-8486-07b1aa29e257",
-  "CreatedAt": "2026-09-16T14:25:33.620346631Z",
+  "ReportID": "01a0afc7-19e6-7b69-a189-8564e231d9f0",
+  "CreatedAt": "2026-09-17T14:30:56.230749252Z",
   "ArtifactID": "sha256:d2ad381244ad087ec0c44faacfed4eef39240c2965f37afa23519688cb8ad01e",
   "ArtifactName": "liquibase/liquibase:4.33.0",
   "ArtifactType": "container_image",
@@ -14024,7 +14024,7 @@
           ],
           "VendorSeverity": {
             "alma": 3,
-            "amazon": 2,
+            "amazon": 3,
             "azure": 2,
             "bitnami": 3,
             "cbl-mariner": 2,
@@ -14461,7 +14461,7 @@
           ],
           "VendorSeverity": {
             "alma": 3,
-            "amazon": 3,
+            "amazon": 2,
             "azure": 3,
             "bitnami": 3,
             "oracle-oval": 3,
@@ -15203,7 +15203,7 @@
             "https://www.cve.org/CVERecord?id=CVE-2026-32280"
           ],
           "PublishedDate": "2026-04-08T02:16:03.247Z",
-          "LastModifiedDate": "2026-09-15T12:17:13.753Z"
+          "LastModifiedDate": "2026-09-16T13:17:31.12Z"
         },
         {
           "VulnerabilityID": "CVE-2026-32281",
@@ -15923,7 +15923,7 @@
             "https://www.cve.org/CVERecord?id=CVE-2026-33814"
           ],
           "PublishedDate": "2026-05-07T20:16:42.88Z",
-          "LastModifiedDate": "2026-09-15T12:17:26.72Z"
+          "LastModifiedDate": "2026-09-16T13:17:43.937Z"
         },
         {
           "VulnerabilityID": "CVE-2026-33818",
